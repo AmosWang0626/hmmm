@@ -1,19 +1,22 @@
 # C开发环境搭建-CentOS
 
-`yum install gcc`
-`yum install gcc-c++`
+## Install
+- `yum install gcc`
+- `yum install gcc-c++`
 
-`vim hello.c`
+## Hello World
 
-```c
-#include <stdio.h>
+- `vim hello.c`
 
-int main() {
-    printf("Hello World !");
-}
-```
+    ```c
+    #include <stdio.h>
 
-`gcc hello.c -o hello`
+    int main() {
+        printf("Hello World !");
+    }
+    ```
+
+- `gcc hello.c -o hello`
 
 ## 错误处理
 
@@ -21,6 +24,7 @@ int main() {
 
 `yum install gcc-c++`
 
+---
 
 # C开发环境搭建-Windows
 - IDE：VS Code
@@ -29,9 +33,9 @@ int main() {
 
 ## Install MinGW
 
-[mingw-w64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/)
+- [mingw-w64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/)
 
-![下载MinGW示意图](mingw_install.png)
+- ![下载MinGW示意图](mingw_install.png)
 
 ## 配置环境变量
 
@@ -41,8 +45,10 @@ int main() {
 `g++ --version`
 `gcc --version`
 
+---
+
 ## C 与 C++
-### `gcc` 和 `g++` 的区别总结
+### `gcc` 和 `g++` 的区别
 
 - gcc: GNU C Compiler
 
