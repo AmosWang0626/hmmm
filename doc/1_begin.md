@@ -1,24 +1,25 @@
 # 实践一把
 
 1. 编译 C 程序
-`gcc hello.cpp` 或者 `g++ hello.cpp`
+`gcc hello.c`
 
 2. 指定输出文件名（默认为源程序文件名）
-`gcc hello.cpp -o amos`
+`gcc hello.c -o amos`
 
 3. Windows下边执行`.exe`
 `hello` 或者 `"e:\study\github\hmmm\"hello`
 
 4. 变量类型
 
-  - 整数类型 `char/int/short/long`
-  - 浮点类型 `float/double`
+  - 整数类型 `int、short、long`
+  - 浮点类型 `float、double`
   - 枚举 `enum`
+  - 字符类型：`char`
   - void类型 `void`
   - 派生类型
-    - 指针类型
-    - 数组类型
-    - 结构类型
+    - 指针类型 `&、*`
+    - 数组类型 `[]`
+    - 结构类型 `struct`
     - 共用体类型
     - 函数类型
 

@@ -3,6 +3,8 @@
 `yum install gcc`
 `yum install gcc-c++`
 
+`vim hello.c`
+
 ```c
 #include <stdio.h>
 
@@ -10,6 +12,8 @@ int main() {
     printf("Hello World !");
 }
 ```
+
+`gcc hello.c -o hello`
 
 ## 错误处理
 
@@ -37,6 +41,19 @@ int main() {
 `g++ --version`
 `gcc --version`
 
-## gcc和g++的区别总结
-gcc: GNU C Compiler
-g++: GNU C++ Compiler
+## C 与 C++
+### `gcc` 和 `g++` 的区别总结
+
+- gcc: GNU C Compiler
+
+- g++: GNU C++ Compiler
+
+### `.c` 后缀和 `.cpp` 后缀的区别
+
+- `.c` C程序
+- `.cpp` C++程序
+
+### 使用 `printf` 时导入标准库
+
+- C：`#include <stdio.h>`
+- C++：`#include <cstdio>`
