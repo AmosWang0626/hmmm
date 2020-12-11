@@ -4,14 +4,14 @@
 `yum install gcc-c++`
 
 ```c
-#include <cstdio>
+#include <stdio.h>
 
 int main() {
     printf("Hello World !");
 }
 ```
 
-## 异常处理
+## 错误处理
 
 未安装 `g++` 可能会报错 `gcc: error trying to exec 'cc1plus': execvp: No such file or directory`
 

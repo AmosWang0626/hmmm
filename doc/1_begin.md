@@ -46,5 +46,11 @@ int add2(int *num1, int *num2)
 
 7. 结构体
 ```c
-
+struct Book
+{
+  int id;
+  char name[50];
+  char author[50];
+  char subject[100];
+};
 ```
