@@ -30,6 +30,7 @@ int main()
 void printBook(struct Book *book)
 {
   printf("Book id: %d\n", book->id);
+  printf("Book id 内存地址: %p\n", book->id);
   printf("Book name: %s\n", book->name);
   printf("Book author: %s\n", book->author);
   printf("Book subject: %s\n", book->subject);
